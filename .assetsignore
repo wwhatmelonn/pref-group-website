@@ -1,0 +1,3 @@
+# Reserved for Cloudflare asset ignore rules.
+# Cloudflare Pages does not require this file, but keeping it avoids Wrangler setup errors
+# if a deploy command is accidentally run.
