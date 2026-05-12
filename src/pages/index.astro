@@ -1,0 +1,330 @@
+---
+import "../styles/home.css";
+
+const products = [
+  {
+    tag: "Bending",
+    title: "Press Brake Machine",
+    text: "CNC, NC, tandem and large tonnage type for bending.",
+    image: "/assets/home/products/cnc-press-brake-machine.webp",
+  },
+  {
+    tag: "Folding",
+    title: "Panel Bending Machine",
+    text: "For more efficient panel folding.",
+    image: "/assets/home/products/panel-bending- machine.webp",
+  },
+  {
+    tag: "Cutting",
+    title: "Laser Cutting Machine",
+    text: "Single table, exchange table and tube and pipe type for cutting.",
+    image: "/assets/home/products/fiber-laser-cutting-machine-tube-and-sheet.webp",
+  },
+  {
+    tag: "Sheet Prep",
+    title: "Shearing Machine",
+    text: "Swing, guillotine and large capacity type for cutting.",
+    image: "/assets/home/products/hydraulic-swing-beam-shearing-machine.webp",
+  },
+  {
+    tag: "Auxiliary",
+    title: "Other Metalworking Machine",
+    text: "V grooving, ironworker, laser welding machine and more.",
+    image: "/assets/home/products/v-grooving-machine.webp",
+  },
+  {
+    tag: "Parts",
+    title: "Spare Parts",
+    text: "Press brake and laser accessories for retailing.",
+    image: "/assets/home/products/cnc-press-brake-tooling-dies.webp",
+  },
+];
+
+const buyerJourneys = [
+  {
+    number: "01",
+    title: "For First-Time Buyers",
+    points: ["Three Starting Options", "Five Basics Before Model Selection", "Know the Full Process"],
+    cta: "Check Where to Start",
+  },
+  {
+    number: "02",
+    title: "For Expanding Production",
+    points: ["Early Warning Signs to Expand", "Choose the Right Upgrade Path", "Balance the Entire Production Flow"],
+    cta: "Discuss Capacity Expansion",
+  },
+  {
+    number: "03",
+    title: "For Dealers & Distributors",
+    points: ["Classification by Distributor Strength", "Support That Helps Dealers", "Fair Cooperation Process Worldwide"],
+    cta: "See Dealer Support",
+  },
+];
+
+const stats = [
+  ["25+", "Years Experience"],
+  ["100+", "Countries Exported"],
+  ["50000+", "Machines Installed"],
+  ["50+", "Professional Engineers"],
+  ["12000T+", "Maximum Press Brake"],
+  ["50000W+", "Maximum Laser Power"],
+];
+
+const strengths = [
+  ["Standardized Manufacturing", "Each machine is built following standardized procedures to guarantee customer satisfaction."],
+  ["Quality Assurance", "Certified quality inspectors perform thorough checks at every stage of the production process."],
+  ["After-Sales Support", "Over 50 skilled engineers are dedicated to maintenance, testing and after-sales support."],
+];
+
+const reasons = [
+  ["01", "Competitive Pricing", "Competitive market pricing without compromising machine quality."],
+  ["02", "Quality Control", "In-house metal component production helps ensure precision and assembly quality."],
+  ["03", "Production Transparency", "Sales teams provide detailed production process updates after order placement."],
+  ["04", "After-Sales Support", "Remote guidance or on-site support depending on machine condition and project needs."],
+  ["05", "Machine Availability", "Machine inventory support helps provide faster delivery for urgent projects."],
+  ["06", "Custom Solutions", "Tailored product recommendations based on material, capacity and production goals."],
+];
+
+const brands = [
+  "bosch-rexroth-hydraulic-system.webp",
+  "cybelec-cnc-controller.webp",
+  "delem-cnc-press-brake-controller.webp",
+  "delta-electronics-industrial-automation.webp",
+  "esa-cnc-controller.webp",
+  "estun-servo-motor.webp",
+  "fagor-cnc-system.webp",
+  "hiwin-linear-guide.webp",
+  "raycus-fiber-laser-source.webp",
+  "schneider-electric-industrial-automation.webp",
+  "siemens-industrial-automation.webp",
+  "wila-press-brake-tooling.webp",
+];
+
+const guides = [
+  ["01", "Why professional machines matter", "Understand how press brakes, laser cutting machines and shearing machines improve precision, productivity and long-term profitability.", "Read Buyer Basics"],
+  ["02", "How to choose the right model", "Select equipment based on material type, thickness range, production volume, precision standards and future expansion plans.", "Compare Machine Paths"],
+  ["03", "How to visit and cooperate", "Plan a factory visit, discuss your machine requirements and start cooperation with support from our sales and engineering team.", "Plan Factory Visit"],
+];
+
+const posts = [
+  ["How to Choose a CNC Press Brake for Your Workshop", "April 2026", "/assets/home/products/cnc-press-brake-machine.webp"],
+  ["Fiber Laser Cutting Machine Buying Checklist", "April 2026", "/assets/home/products/fiber-laser-cutting-machine-tube-and-sheet.webp"],
+  ["Press Brake Tooling Basics for New Buyers", "March 2026", "/assets/home/products/cnc-press-brake-tooling-dies.webp"],
+  ["How Dealers Can Build a Better Machine Portfolio", "March 2026", "/assets/home/products/v-grooving-machine.webp"],
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Press Brake & Laser Cutting Machine Manufacturer | PREF Group</title>
+    <meta
+      name="description"
+      content="PREF Group manufactures press brakes, fiber laser cutting machines, shearing machines, spare parts, and complete metal fabrication solutions for global buyers."
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="mainNav">
+        <a class="logo" href="/">PREF Group</a>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Why Us</li>
+          <li>Products</li>
+          <li>Contact Us</li>
+          <li>Downloads</li>
+          <li>Calculator</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-bg" src="/assets/home/video/press-brake-factory-video-cover.webp" alt="PREF CNC press brake factory" />
+        <div class="hero-text">
+          <small>Precision Metal Solutions</small>
+          <h1>High-Performance CNC Press Brake & Fiber Laser Cutting Machine</h1>
+          <p>Engineered for accuracy, built for reliability, designed for global manufacturing.</p>
+          <div class="buttons">
+            <a class="btn-primary" href="#contact">Get Free Quote</a>
+            <a class="btn-outline" href="#products">More Machines</a>
+          </div>
+        </div>
+        <div class="hero-machine">
+          <img src="/assets/home/products/cnc-press-brake-machine.webp" alt="CNC press brake machine" />
+          <div class="hero-machine-bar">
+            <span>Press Brake</span>
+            <span>Laser Cutting</span>
+            <span>Global Support</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="buyer">
+        <div class="section-header">
+          <h2>Choose Your Buyer Journey</h2>
+          <p>Whether you are a first-time buyer, an experienced purchaser, or a distributor, we provide the right support and machine solutions for your business.</p>
+        </div>
+        <div class="buyer-grid">
+          {buyerJourneys.map((journey) => (
+            <article class="buyer-card">
+              <span>{journey.number}</span>
+              <h3>{journey.title}</h3>
+              <ul>{journey.points.map((point) => <li>{point}</li>)}</ul>
+              <a href="#contact">{journey.cta}</a>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="section-header">
+          <h2>PREF Group Product Range</h2>
+          <p>Comprehensive sheet metal fabrication equipment designed for high efficiency and long-term stability.</p>
+        </div>
+        <div class="product-grid">
+          {products.map((product) => (
+            <article class="product-card">
+              <img src={product.image} alt={product.title} />
+              <div>
+                <span class="product-tag">{product.tag}</span>
+                <h3>{product.title}</h3>
+                <p>{product.text}</p>
+                <div class="product-actions"><a href="#">View Details</a><a href="#contact">Get Quote</a></div>
+              </div>
+            </article>
+          ))}
+        </div>
+        <a href="#" class="section-btn">More About Machines</a>
+      </section>
+
+      <section class="about">
+        <div class="about-header">
+          <h2>About PREF Group</h2>
+          <p>Be the best sheet metal machinery manufacturer, in constant pursuit of improving solutions.</p>
+        </div>
+        <div class="about-stats">
+          {stats.map(([value, label]) => <div class="stat-item"><h3>{value}</h3><span>{label}</span></div>)}
+        </div>
+        <div class="about-video">
+          <img src="/assets/home/video/press-brake-factory-video-cover.webp" alt="PREF factory video cover" />
+          <div>
+            <h3>Factory Video</h3>
+            <p>See how PREF machines are built, inspected and prepared for global delivery.</p>
+          </div>
+        </div>
+        <div class="about-grid">
+          {strengths.map(([title, text]) => <article class="about-card"><h3>{title}</h3><p>{text}</p></article>)}
+        </div>
+        <a href="#" class="section-btn">More About Us</a>
+      </section>
+
+      <section class="why">
+        <div class="why-header">
+          <h2>Why Choose PREF Group</h2>
+          <p>We are committed to fostering win-win partnerships and delivering high quality machines.</p>
+        </div>
+        <div class="why-grid">
+          {reasons.map(([number, title, text]) => (
+            <article class="why-card"><div class="why-icon">{number}</div><h3>{title}</h3><p>{text}</p></article>
+          ))}
+        </div>
+        <a href="#contact" class="section-btn">Welcome to Contact Us</a>
+      </section>
+
+      <section class="partners">
+        <div class="partners-header">
+          <h2>Trusted Global Component Brands</h2>
+          <p>We use internationally recognized components to ensure stable performance, long service life and reliable operation.</p>
+        </div>
+        <div class="partners-slider">
+          <div class="partners-track">
+            {[...brands, ...brands].map((brand) => (
+              <img src={`/assets/home/brands/${brand}`} alt={brand.replace(".webp", "").replaceAll("-", " ")} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="guide">
+        <div class="guide-header">
+          <h2>Guide for New Manufacturers</h2>
+          <p class="guide-subtitle">Powering your metal fabrication success with focused buying guidance.</p>
+        </div>
+        <div class="guide-content">
+          <div class="guide-section">
+            {guides.map(([number, title, text, cta]) => (
+              <article class="guide-entry">
+                <div class="guide-number">{number}</div>
+                <div class="guide-body">
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                  <a class="guide-link" href="#contact">{cta}</a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="blog-header">
+          <h2>Recently Blog Post</h2>
+          <p class="blog-subtitle">Please add our website to your bookmarks, as we regularly update articles.</p>
+        </div>
+        <div class="blog-grid">
+          {posts.map(([title, date, image]) => (
+            <article class="blog-card">
+              <div class="blog-image"><img src={image} alt={title} /></div>
+              <div class="blog-content"><h3>{title}</h3><p class="blog-date">{date}</p><a href="#" class="blog-link">Read More</a></div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="contact-cta" id="contact">
+        <div class="contact-bg-line"></div>
+        <div class="contact-container">
+          <div class="contact-left">
+            <span class="contact-label">Global Business Connection</span>
+            <h2>Contact PREF Group</h2>
+            <p>If you have any suggestions or questions, feel free to reach out to our sales manager.</p>
+          </div>
+          <div class="contact-right"><a href="#" class="contact-btn">Contact Sales Manager</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col footer-brand">
+          <h2 class="footer-logo">PREF <span>Group</span></h2>
+          <p class="footer-tagline">Global Metal Forming Equipment Manufacturer</p>
+          <div class="footer-contact">
+            <p>High Tech Industrial Development Zone</p>
+            <p>Bowang District, Maanshan, Anhui, China</p>
+            <p>Tel: +86 15555595666</p>
+            <p>Whatsapp: +86 15555595666</p>
+            <p>Email: admin@zymtcnc.com</p>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Factory</h4><ul><li><a href="#">Home</a></li><li><a href="#">About PREF Group</a></li><li><a href="#">Why Choose Us</a></li><li><a href="#">Blog & News</a></li><li><a href="#contact">Contact Sales</a></li></ul></div>
+        <div class="footer-col"><h4>Products</h4><ul><li><a href="#">Press Brake Machine</a></li><li><a href="#">Panel Bender Machine</a></li><li><a href="#">Laser Cutting Machine</a></li><li><a href="#">Shearing Machine</a></li><li><a href="#">Spare Parts</a></li></ul></div>
+        <div class="footer-col"><h4>Resources</h4><ul><li><a href="#">Choose Your Buyer Journey</a></li><li><a href="#">Engineering Calculator</a></li><li><a href="#">Factory Visit Route</a></li><li><a href="#">Download Brochures</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><div class="footer-legal"><a href="#">Privacy Policy</a><span>|</span><a href="#">Terms of Service</a></div><div class="footer-copy">© 2026 PREF Group. All Rights Reserved.</div></div>
+    </footer>
+
+    <script>
+      const nav = document.getElementById("mainNav");
+      const updateNavOnScroll = () => {
+        if (!nav) return;
+        nav.classList.toggle("scrolled", window.scrollY > 10);
+      };
+      window.addEventListener("scroll", updateNavOnScroll);
+      updateNavOnScroll();
+    </script>
+  </body>
+</html>
