@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "node scripts/run-on-subst.mjs astro dev -- --host 127.0.0.1",
+    "build": "node scripts/run-on-subst.mjs astro build",
+    "preview": "node scripts/run-on-subst.mjs astro preview -- --host 127.0.0.1",
+    "sanity": "sanity"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@sanity/client": "^6.24.1",
+    "@sanity/vision": "^3.64.3",
+    "astro": "^5.15.5",
+    "sanity": "^3.64.3",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {}
+}
